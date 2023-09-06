@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: sharatshet/k8s:v1
+        image: sharatshet/k8s:replaceImageTag
         ports:
         - containerPort: 8080
